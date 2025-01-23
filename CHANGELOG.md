@@ -1,5 +1,35 @@
 # es-toolkit Changelog
 
+## Version v1.31.0
+
+Released on December 27th, 2024.
+
+- Added support for the [windowed](https://es-toolkit.slash.page/reference/array/windowed.html), [remove](https://es-toolkit.slash.page/reference/array/remove.html) and [asyncNoop](https://es-toolkit.slash.page/reference/function/asyncNoop.html) functions.
+- Introduced compatibility functions for [pullAll](https://es-toolkit.slash.page/reference/compat/array/pullAll.html), [subtract](https://es-toolkit.slash.page/reference/compat/math/subtract.html), [isBuffer](https://es-toolkit.slash.page/reference/predicate/isBuffer.html), and [methodOf](https://es-toolkit.slash.page/reference/compat/util/methodOf.html).
+- Enhanced the performance of [pull](https://es-toolkit.slash.page/reference/array/pull.html) when working with large arrays.
+- Resolved an issue where [reverse](https://es-toolkit.slash.page/reference/compat/array/reverse.html) was not being exported in our compatibility library.
+- Updated [groupBy](https://es-toolkit.slash.page/reference/array/groupBy.html) to properly handle keys like `toString` or `valueOf`.
+- Fixed [merge](https://es-toolkit.slash.page/reference/object/merge.html) to correctly merge values when `target` or any of its values are `null` or `undefined`.
+
+We sincerely thank @T3sT3ro, @D-Sketon, @tuhm1, @willmanduffy, @apeltop, @aken-you, @SaeWooKKang, and @ssi02014 for their contributions. We appreciate your great efforts!
+
+## Version v1.30.1
+
+Released on December 14th, 2024.
+
+- Fixed [uniqueId](https://es-toolkit.slash.page/reference/compat/util/uniqueId.html) not being exported in our compatibility library.
+
+We sincerely thank @redd97 for their contributions. We appreciate your great efforts!
+
+## Version v1.30.0
+
+Released on December 13th, 2024.
+
+- Introduced support for [pull](https://es-toolkit.slash.page/reference/array/pull.html).
+- Added compatibility functions for [map](https://es-toolkit.slash.page/reference/compat/array/map.html), [range](https://es-toolkit.slash.page/reference/math/range.html), [rangeRight](https://es-toolkit.slash.page/reference/math/rangeRight.html), [differenceWith](https://es-toolkit.slash.page/reference/array/differenceWith.html), [nth](https://es-toolkit.slash.page/reference/compat/array/nth.html), [noop](https://es-toolkit.slash.page/reference/function/noop.html), [identity](https://es-toolkit.slash.page/reference/function/identity.html), [keys](https://es-toolkit.slash.page/reference/compat/object/keys.html), [propertyOf](https://es-toolkit.slash.page/reference/compat/object/propertyOf.html), [nthArg](https://es-toolkit.slash.page/reference/compat/function/nthArg.html), [delay](https://es-toolkit.slash.page/reference/promise/delay.html), [toPlainObject](https://es-toolkit.slash.page/reference/compat/util/toPlainObject.html), [unary](https://es-toolkit.slash.page/reference/function/unary.html), [once](https://es-toolkit.slash.page/reference/function/once.html), [after](https://es-toolkit.slash.page/reference/function/after.html), [takeRightWhile](https://es-toolkit.slash.page/reference/array/takeRightWhile.html), [escapeRegExp](https://es-toolkit.slash.page/reference/string/escapeRegExp.html), [unescape](https://es-toolkit.slash.page/reference/string/unescape.html), [upperFirst](https://es-toolkit.slash.page/reference/string/upperFirst.html), [lowerFirst](https://es-toolkit.slash.page/reference/string/lowerFirst.html), [deburr](https://es-toolkit.slash.page/reference/string/deburr.html), [lt](https://es-toolkit.slash.page/reference/util/lt.html), [lte](https://es-toolkit.slash.page/reference/util/lte.html), [toLower](https://es-toolkit.slash.page/reference/compat/string/toLower.html), [invoke](https://es-toolkit.slash.page/reference/compat/util/invoke.html), [method](https://es-toolkit.slash.page/reference/compat/util/method.html), [reverse](https://es-toolkit.slash.page/reference/compat/array/reverse.html), [now](https://es-toolkit.slash.page/reference/compat/util/now.html), [findKey](https://es-toolkit.slash.page/reference/object/findKey.html), [stubArray](https://es-toolkit.slash.page/reference/compat/util/stubArray.html), [stubFalse](https://es-toolkit.slash.page/reference/compat/util/stubFalse.html), [stubObject](https://es-toolkit.slash.page/reference/compat/util/stubObject.html), [stubString](https://es-toolkit.slash.page/reference/compat/util/stubString.html), and [stubTrue](https://es-toolkit.slash.page/reference/compat/util/stubTrue.html).
+
+We sincerely thank @healtheloper, @mass2527, @D-Sketon, @eunhyulkim, @scato3, @Na-hyunwoo, and @dasom-jo for their contributions. We appreciate your great efforts!
+
 ## Version v1.29.0
 
 Released on December 1st, 2024.

@@ -1,7 +1,7 @@
 {
   "name": "es-toolkit",
   "description": "A state-of-the-art, high-performance JavaScript utility library with a small bundle size and strong type annotations.",
-  "version": "1.29.0",
+  "version": "1.31.0",
   "homepage": "https://es-toolkit.slash.page",
   "bugs": "https://github.com/toss/es-toolkit/issues",
   "repository": {
@@ -18,6 +18,7 @@
     ".": "./src/index.ts",
     "./array": "./src/array/index.ts",
     "./compat": "./src/compat/index.ts",
+    "./error": "./src/error/index.ts",
     "./function": "./src/function/index.ts",
     "./math": "./src/math/index.ts",
     "./object": "./src/object/index.ts",
@@ -56,6 +57,26 @@
         "require": {
           "types": "./dist/array/index.d.ts",
           "default": "./dist/array/index.js"
+        }
+      },
+      "./compat": {
+        "import": {
+          "types": "./dist/compat/index.d.mts",
+          "default": "./dist/compat/index.mjs"
+        },
+        "require": {
+          "types": "./dist/compat/index.d.ts",
+          "default": "./dist/compat/index.js"
+        }
+      },
+      "./error": {
+        "import": {
+          "types": "./dist/error/index.d.mts",
+          "default": "./dist/error/index.mjs"
+        },
+        "require": {
+          "types": "./dist/error/index.d.ts",
+          "default": "./dist/error/index.js"
         }
       },
       "./function": {
@@ -126,16 +147,6 @@
         "require": {
           "types": "./dist/util/index.d.ts",
           "default": "./dist/util/index.js"
-        }
-      },
-      "./compat": {
-        "import": {
-          "types": "./dist/compat/index.d.mts",
-          "default": "./dist/compat/index.mjs"
-        },
-        "require": {
-          "types": "./dist/compat/index.d.ts",
-          "default": "./dist/compat/index.js"
         }
       },
       "./package.json": "./package.json"

@@ -17,6 +17,6 @@ import { pull as pullToolkit } from '../../array/pull.ts';
  * pull(numbers, [2, 4]);
  * console.log(numbers); // [1, 3, 5]
  */
-export function pull<T>(arr: T[], ...valuesToRemove: readonly unknown[][]): T[] {
-  return pullToolkit(arr, flatten(valuesToRemove));
+export function pull<T>(arr: T[], ...valuesToRemove: readonly unknown[]): T[] {
+  return pullToolkit(arr, valuesToRemove);
 }
