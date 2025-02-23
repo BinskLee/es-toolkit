@@ -1,7 +1,7 @@
 {
   "name": "es-toolkit",
   "description": "A state-of-the-art, high-performance JavaScript utility library with a small bundle size and strong type annotations.",
-  "version": "1.31.0",
+  "version": "1.32.0",
   "homepage": "https://es-toolkit.slash.page",
   "bugs": "https://github.com/toss/es-toolkit/issues",
   "repository": {
@@ -14,6 +14,7 @@
     "benchmarks"
   ],
   "packageManager": "yarn@4.2.2",
+  "react-native": "./dist/index.js",
   "exports": {
     ".": "./src/index.ts",
     "./array": "./src/array/index.ts",
@@ -175,6 +176,7 @@
     "eslint-plugin-vue": "^9.28.0",
     "execa": "^9.3.0",
     "globals": "^15.9.0",
+    "happy-dom": "^16.7.3",
     "jscodeshift": "^17.0.0",
     "prettier": "^3.2.5",
     "prettier-plugin-sort-re-exports": "^0.1.0",
